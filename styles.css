@@ -1,0 +1,203 @@
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h2{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 30px;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1eac31fa;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color:white;
+}
+
+main{
+    filter: brightness(85%);
+margin-left: 10%;
+margin-right: 10%;
+background-color: #48b156;
+background-image: url('images/test.jpg');
+background-size: cover;}
+input{
+    width: 100px;
+}
+footer{
+    font-family: "Jersey 10", sans-serif;
+    border-top:1px solid #ccc;
+    margin: 0;
+    padding: 2px;
+    height: 20px;
+}
+.but{
+    border: 2px solid black;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.cen{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+}
+
+.nawigacja {
+    background-color: #0e831d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_r {
+    width: 20%;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo_r img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nav__menu {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+.nav__menu a{
+    text-decoration: none;
+    padding:  6px 15px;
+    border-radius:20px;
+    margin: 0 0px;
+    font-weight: 600;
+}
+.nav__menu a:hover{
+    background-color: rgb(2, 124, 77);
+    color: white;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: auto;
+}
+
+.item {
+    margin-left: 20px;
+    width: auto;
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+#shoes {
+    text-align: center; /* Wyrównaj elementy do środka */
+}
+
+.but-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.but {
+    margin: 10px;
+    max-width: 200px;
+}
+
+
+.section {
+    padding: 10px 10px;
+    border-bottom: 1px solid #ccc; /* Dodajemy linie oddzielającą sekcje */
+}
+
+.section:last-child {
+    border-bottom: none; /* Usuwamy linie na ostatniej sekcji */
+}
+.bmi-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Dodane */
+}
+
+.bmi-form-container,
+.bmi-result-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Dodałem również styl dla formularza */
+#bmiForm {
+    display: flex;
+    flex-direction: column;
+}
+#bmiForm label {
+    margin-bottom: 10px;
+}
+#bmiImage{
+    width: 50%;
+    height: 200px;
+}
+
+
+
+
+
+
+/* Media Queries dla ekranów o szerokości do 768px */
+@media screen and (max-width: 768px) {
+  
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .item {
+        margin: 10px 0;
+        border-top: 1px solid #fff; /* Dodajemy pasek oddzielający */
+        padding-top: 10px; /* Dodatkowy padding dla estetyki */
+    }
+
+    .item:first-child {
+        border-top: none; /* Usuwamy górny pasek dla pierwszej zakładki */
+    }
+}
+
+
+.image_container img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

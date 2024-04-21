@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasjonaci Biegania</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+        </style>
+</head>
+<body>
+<header>
+    <nav class="nawigacja">
+        <a href="#home" class="logo_r">
+            <img src="images/run-fill.png" alt="Logo biegacza">
+            Biegacz
+        </a>
+        <div class="nav__menu" id="nav-me">
+            <ul class="list">
+                <li class="item">
+                    <a href="#about" class="link">O nas</a>
+                </li>
+                <li class="item">
+                    <a href="#bmi" class="link">Oblicz swoje BMI</a>
+                </li>
+                <li class="item">
+                    <a href="#shoes" class="link">Buty</a>
+                </li>
+                <li class="item">
+                    <a href="#food" class="link">Jedzenie</a>
+                </li>
+                <li class="item">
+                    <a href="#kontakt" class="link">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="main">
+    <section id="home" class="section">
+        <h2 class="cen">Witaj na stronie Pasjonaci Biegania!</h2>
+        <p>Witajcie w naszej zakładce "O nas", dedykowanej wszystkim pasjonatom biegania! Jesteśmy zespołem entuzjastów, którzy od lat oddają się temu pięknemu sportowi z całym zaangażowaniem i pasją. Nasza strona powstała z myślą o wszystkich, którzy kochają ruch na świeżym powietrzu, chcą pogłębiać swoją wiedzę na temat biegania oraz dzielić się doświadczeniami z innymi biegaczami.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>O nas</h2>
+        <p>Jesteśmy pasjonatami zdrowego stylu życia od wielu lat. Naszą misją jest promowanie zdrowego odżywiania i regularnej aktywności fizycznej.</p>
+    </section>
+
+    <section id="bmi" class="section">
+        <h2>Oblicz swoje BMI</h2>
+        <div class="bmi-container">
+            <div class="bmi-form-container">
+                <form id="bmiForm">
+                    <label for="height">Wzrost (w cm):
+                    <input type="number" id="height" name="height" required></label>
+                    <label for="weight">Waga (w kg):&nbsp&nbsp&nbsp
+                    <input type="number" id="weight" name="weight" required></label>
+                    <button type="submit">Oblicz BMI</button>
+                </form>
+            </div>
+            <div class="bmi-result-container" id="bmiResult"></div>
+        </div>
+    </section>
+
+    <section id="shoes" class="section">
+        <h2>Buty</h2>
+        <div class="but-wrapper">
+            <img src="images/but1.jpg" alt="buty" class="but">
+            <img src="images/but2.jpg" alt="buty" class="but">
+            <img src="images/but3.jpg" alt="buty" class="but">
+            <img src="images/but4.jpg" alt="buty" class="but">
+        </div>
+        <p>Źródło: nbsklep.pl</p>
+    </section>
+
+    <section id="food" class="section">
+        <h2>Jedzenie</h2>
+        <p>Każdy posiłek można przygotować w wersji zdrowszej lub mniej zdrowej, w zależności od składników i metody gotowania. Na przykład, jajecznica może być zrobiona z dodatkiem masła i boczku, co dodaje tłuszczu i kalorii, albo z oliwą z oliwek i warzywami, co zwiększa ilość błonnika i witamin. Jeśli chodzi o jedzenie przed bieganiem, warto wybrać lekkie posiłki bogate w węglowodany, takie jak owsianka z owocami czy banan z masłem orzechowym. Po biegu, dobrym wyborem jest posiłek z białkiem i węglowodanami, na przykład jogurt grecki z miodem i orzechami lub kanapka z indykiem i awokado.</p>
+
+        <div class="images">
+            <div class="image_container">
+                <img src="images/jaj1.jpg" alt="jajecznica">
+                <img src="images/jaj2.jpg" alt="jajecznica">
+                <img src="images/jaj3.png" alt="jajecznica">
+                <img src="images/jaj4.jpeg" alt="jajecznica">
+            </div>
+            </div>
+    </section>
+
+    <section id="kontakt" class="section">
+        <h2>Kontakt</h2>
+        
+        </div>
+        <p>Masz pytania lub sugestie? Skontaktuj się z nami!</p>
+        biegacze.kontakt@run.pl
+        <!-- Tutaj może być formularz kontaktowy -->
+    </section>
+</main>
+<footer>
+    <marquee behavior="slide " direction="right">Michał Siergiej</marquee>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
